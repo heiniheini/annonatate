@@ -1,0 +1,33 @@
+---
+canvas: "https://heiniheini.github.io/annonatate/img/derivatives/iiif/Grossformat/canvas/Grossformat-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Andreas Feininger, New York, 1945",
+            "purpose": "identifying",
+            "creator": {
+                "id": "heiniheini",
+                "name": "heiniheini"
+            },
+            "created": "2022-01-20T14:31:09.328Z",
+            "modified": "2022-01-20T14:31:53.156Z"
+        }
+    ],
+    "target": {
+        "source": "https://heiniheini.github.io/annonatate/img/derivatives/iiif/Grossformat/canvas/Grossformat-1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"949.7942504882812,1602.478271484375 1032.4671630859375,3136.521240234375 2915.573974609375,2780.568115234375 2814.529541015625,1643.8145751953125 2814.25244140625,1645.855712890625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://heiniheini.github.io/annonatate/img/derivatives/iiif/Grossformat/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "735ee3a1-93f9-4bc2-8008-a5e0cf1e48e0.json"
+}
