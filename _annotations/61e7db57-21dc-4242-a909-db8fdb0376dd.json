@@ -1,0 +1,45 @@
+---
+canvas: "https://heiniheini.github.io/annonatate/img/derivatives/iiif/Grossformat/canvas/Grossformat-1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Isa Genzken, I Love New York, 2006",
+            "purpose": "commenting",
+            "creator": {
+                "id": "heiniheini",
+                "name": "heiniheini"
+            },
+            "created": "2022-01-26T10:48:06.651Z",
+            "modified": "2022-01-26T10:49:36.066Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Isa Genzken",
+            "purpose": "tagging",
+            "creator": {
+                "id": "heiniheini",
+                "name": "heiniheini"
+            },
+            "created": "2022-01-26T10:48:36.114Z",
+            "modified": "2022-01-26T10:48:39.072Z"
+        }
+    ],
+    "target": {
+        "source": "https://heiniheini.github.io/annonatate/img/derivatives/iiif/Grossformat/canvas/Grossformat-1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:3232.19091796875,1603.701416015625,1233.7890625,1121.62646484375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://heiniheini.github.io/annonatate/img/derivatives/iiif/Grossformat/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "61e7db57-21dc-4242-a909-db8fdb0376dd.json"
+}
