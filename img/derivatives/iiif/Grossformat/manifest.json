@@ -78,7 +78,7 @@
       "annotations": [
         {
           "@id": "{{ '/' | absolute_url }}annotations/grossformat-1-list.json",
-          "type": "Annotation",
+          "@type": "Annotation",
           "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/canvas/Grossformat-1"
         }
       ]
