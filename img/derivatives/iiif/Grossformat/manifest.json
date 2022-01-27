@@ -32,8 +32,8 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/canvas/Grossformat-1",
-      "type": "Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/canvas/Grossformat-1",
+      "@type": "Canvas",
       "label": {
         "de": [
           "Passage_Grossformat_35_cb"
@@ -49,23 +49,23 @@
       "width": 5760,
       "items": [
         {
-          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/page/p1/1",
-          "type": "AnnotationPage",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/page/p1/1",
+          "@type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/annotation/p0001-image",
-              "type": "Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/annotation/p0001-image",
+              "@type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/PassageGrossformat35cb/full/full/0/default.jpg",
-                "type": "Image",
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/PassageGrossformat35cb/full/full/0/default.jpg",
+                "@type": "Image",
                 "format": "image/jpeg",
                 "height": 3840,
                 "width": 5760,
                 "service": [
                   {
-                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/PassageGrossformat35cb",
-                    "type": "ImageService2",
+                    "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/PassageGrossformat35cb",
+                    "@type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -77,7 +77,7 @@
       ],
       "annotations": [
         {
-          "id": "{{ '/' | absolute_url }}annotations/grossformat-1-list.json",
+          "@id": "{{ '/' | absolute_url }}annotations/grossformat-1-list.json",
           "type": "Annotation",
           "target": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/canvas/Grossformat-1"
         }
