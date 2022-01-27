@@ -11,7 +11,7 @@
     {
       "label": {
         "de": [
-          "rights"
+          "licence"
         ]
       },
       "value": {
@@ -33,7 +33,7 @@
   "items": [
     {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/canvas/Grossformat-1",
-      "@type": "Canvas",
+      "@type": "sc:Canvas",
       "label": {
         "de": [
           "Passage_Grossformat_35_cb"
