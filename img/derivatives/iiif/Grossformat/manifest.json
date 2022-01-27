@@ -47,11 +47,11 @@
       ],
       "height": 3840,
       "width": 5760,
-      "items": [
+      "members": [
         {
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/page/p1/1",
           "@type": "AnnotationPage",
-          "items": [
+          "members": [
             {
               "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/annotation/p0001-image",
               "@type": "Annotation",
