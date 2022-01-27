@@ -2,9 +2,9 @@
 layout: none
 ---
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/manifest.json",
-  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Grossformat/manifest.json",
+  "@type": "sc:Manifest",
   "label": {
     "de": [
       "Vitrine"
